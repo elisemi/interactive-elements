@@ -1,0 +1,33 @@
+body {
+    background-color: #021101fb;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 280px;
+    font-weight: 700;
+    text-align: center;
+    user-select: none;
+    /* stops text from being highlighted */
+    color: black;
+}
+
+#nature {
+    position: fixed;
+    background-image: url('nature.jpg');
+    /* below clear image */
+    background-size: cover;
+    display: block;
+    left: -2px;
+    top: -2px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* prevents repeating image */
+    background-attachment: fixed;
+    overflow: hidden;
+    cursor: pointer;
+    /* to mimic a finger on a window */
+    opacity: 0.8;
+    filter: brightness(0.8) blur(0.2px);
+}
